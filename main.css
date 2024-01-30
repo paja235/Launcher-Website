@@ -1,4 +1,11 @@
-.Button{
-    background-color: darkorange;
-    color: aliceblue;
+body{
+    background-color: #0a1a20;
+    font-family:Arial;
+    color: rgb(244, 250, 255);
+}
+.Title{
+    font-weight: 900;
+}
+#participants{
+    background-color: #021218;
 }
