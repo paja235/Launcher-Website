@@ -2,9 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Launcher</title>
+        <title>Chat App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
+        <script src="main.js" defer></script>
     </head>
     <body>
         <header>
@@ -12,7 +13,22 @@
         </header>
         <main>
             <section id="participants">
-                <div class="participant">Paja</div>
+                <h2>Users</h2>
+                <div class="participant">&#183; Paja</div>
+                <div class="participant">&#183; Dragdam</div>
+                <div class="participant">&#183; Random osoba</div>
+                <div class="participant">&#183; Novi korisnik</div>
+            </section>
+            <input type="text" value="name" id="nameInput">
+            <button id="addUser">Add User</button>
+            <section id="messageInputSection">
+                <input type="text" id="messageInput">
+                <!--Lorem Ipsum is simply dummy text of the printing and typesetting industry.-->
+                <button id="sendButton">Send</button>
+            </section>
+            <section id="messages">
+                <div class="message">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <div class="message">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
             </section>
         </main>
     </body>
